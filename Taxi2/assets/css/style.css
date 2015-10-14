@@ -1,0 +1,259 @@
+html, body {
+    height: 100%;
+    
+}
+.loginMain{
+    box-shadow: 0px 0px 60px 11px rgb(194, 238, 194);
+}
+.logingTable{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.logingTable .td{
+    width: 30%;
+    
+}
+.logingTable .td label{
+   float: right;
+   margin-right: 2%;
+    
+}
+.datatable th {
+    text-transform:uppercase;
+   }
+   .gridId{
+       width:100%;
+/*       background-color: #DAA520;*/
+       text-align: center;
+   }
+   
+   .adminGridBtn{
+       
+   }
+/*   .loginMain{
+       width: 30%;
+       margin: 0 auto;
+       height: 50%;
+   }*/
+   .mainHeaderDiv{
+/*       float: right;*/
+margin-bottom: 26px;
+z-index: 20;
+right: 0;
+position:absolute;
+   }
+   .newEvent{
+       margin-top: 30px;
+   }
+/*    .newEvent div{
+       margin-top: 10px;
+   }*/
+    .newEvent .form-group{
+       margin-top: 10px;
+   }
+   .newEvent label{
+       margin-right: 10px;
+   }
+   #panel {
+        position: absolute;
+        top: 5px;
+        left: 50%;
+        margin-left: -180px;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+      .em_top{
+          width:100%;
+          background-color: red;
+          height: 60px;
+          
+left:0px;
+top:0px;
+/*z-index:-1;*/
+      }
+/*      .dataTables_length {
+    float: left;
+    width: 0;
+}*/
+/*.gridDiv{
+    width: 100%;
+}*/
+
+/*.dataTables_wrapper {
+    clear: both;
+    margin: 35px 0 0;
+    position: absolute;
+}*/
+.chosen-container-multi .chosen-choices li.search-choice .search-choice-close {
+
+background: url(../img/chosen-sprite.png) -42px 1px no-repeat;
+
+}
+.form-horizontal .control-label {
+width: 10%;
+}
+#panel_inputs{
+    width:94%;
+        margin-top: 50px;
+margin-left: 47px;
+}
+.mainGustDiv{
+    width: 55%;
+    overflow: auto;
+    height: 253px;
+    margin: 0 auto;
+}
+.mainGustDiv2{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 21px;
+}
+.headrA{
+    font-size: 18px;
+font-weight: 900;
+color: white;
+}
+.editEventTavle{
+    width: 95%;
+/*position: absolute;*/
+height: 500px;
+/*right: 5px;
+top: 115px;*/
+/*background-color: red;*/
+/*top:0;*/
+}
+.subTable{
+    width:100%;
+}
+.mainGustDiv .has-success .row{
+    border-bottom-color: red;
+border-bottom-style: solid;
+border-width:1px;
+}
+.navTable{
+    width: 50%;
+text-align: center;
+float: right;
+margin-top: 15px;
+margin-right: 5px;
+}
+.navTable .navTd{
+text-align: center;
+
+}
+tr.odd td.sorting_1{background-color: #FFFFFF;}
+.dataTables_wrapper table th{ text-decoration:underline;}
+/*.dataTables_wrapper table thead tr {background: #cedce7;}*/
+tr.odd { background: #FFF;border-bottom:  solid thin;}
+tr.even { background: #FFF;border-bottom:  solid thin;}
+table.datatable thead  { height: 0.5px;}
+tr.even td.sorting_1{ background-color: #FFF;}
+/*.dataTables_wrapper{ background: #cedce7;border: 0px;}*/
+.ui-dialog .ui-dialog-content { background: #C7C78D; }
+ .form-horizontal .control-label {
+width: 15%;
+}
+.newGust label{
+    float: right;
+}
+.newGust td{
+    padding-bottom: 15px;
+}
+.container > .content {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 -20px; 
+        -webkit-border-radius: 10px 10px 10px 10px;
+           -moz-border-radius: 10px 10px 10px 10px;
+                border-radius: 10px 10px 10px 10px;
+        -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+           -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+                box-shadow: 0px 0px 60px 11px #D7DCE7;
+      }
+
+      .login-form {
+        margin-left: 65px;
+      }
+
+      legend {
+        margin-right: -50px;
+        font-weight: bold;
+          color: #404040;
+      }
+      .container {
+        width: 300px;
+      }
+      .fix{
+/*         position: fixed; */
+      }
+      .gustPageDived2{
+          width:50%;
+      }
+      .col-lg-3 {
+width: 15%;
+}
+.col-lg-9 {
+width: 100%;
+}
+.gridButton{
+    margin: 5px;
+}
+.gridId {
+width: 100%;
+/* background-color: #DAA520; */
+ text-align: left; 
+}
+.newEvntButton{
+    float: right;
+margin-bottom: 10px;
+}
+.dataTables_length {
+    float: inherit;
+    width: 40%;
+}
+.form-horizontal .form-group {
+margin-right: -15px;
+margin-left: 18px;
+}
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px;
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.pic{
+    height: 85px;
+}
+.pic img{
+    height: 80px;
+    height: 74%;
+}
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+    }

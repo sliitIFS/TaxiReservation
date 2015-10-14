@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">MyMapFinal</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+    <string name="title_activity_reservation">Reservation</string>
+    <string name="str_atv_places">Enter Place Here</string>
+
+    <string-array name="vehicle_array">
+        <item>Van</item>
+        <item>Car</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_activity_final">Map</string>
+    <string name="title_activity_edit_favourites">EditFavourites</string>
+    <string name="title_activity_favourites">Favourites</string>
+    <string name="title_activity_favourite_list">FavouriteList</string>
+    <string name="Edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="Cancel">Cancel</string>
+
+    <string name="welcome_txt">GCM App</string>
+    <string name="email">Email Address</string>
+    <string name="login">Register Me</string>
+    <string name="defaultmsg">Message sent by server will appear here.</string>
+    <string name="msg_title">Message</string>
+    <string name="user_title">Hello User</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_thank">ThankActivity</string>
+    <string name="title_activity_passenger_booking">PassengerBOOKING</string>
+    <string name="selectdate">selectdate</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_my_main">MyMain</string>
+    <string name="time_selected"></string>
+    <string name="time_current">The Time is:</string>
+    <string name="title_activity_book_des_map">Map</string>
+    <string name="title_activity_book_source_map">Map</string>
+    <string name="title_activity_rate_driver">RateDriver</string>
+
+</resources>

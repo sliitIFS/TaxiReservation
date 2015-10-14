@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.mymapfinal" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+    <permission
+        android:name="com.example.user.mymapfinal.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.user.mymapfinal.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- GCM Permissions - End here -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".ResetPassword"
+            android:label="@string/title_activity_reset_password" >
+        </activity>
+        <activity
+            android:name=".Reservation"
+            android:label="@string/title_activity_reservation" >
+        </activity>
+        <activity
+            android:name=".HomeActivityHire"
+            android:label="Hire Accepted" >
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCliHTAlOnRkjbha-HPpBRlt2euaKhGC3c" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
+        </activity>
+        <activity
+            android:name=".MapsActivityFinal"
+            android:label="@string/title_activity_maps_activity_final" >
+        </activity>
+        <activity
+            android:name=".EditFavourites"
+            android:label="@string/title_activity_edit_favourites" >
+        </activity>
+        <activity
+            android:name=".FavouriteList"
+            android:label="@string/title_activity_favourite_list" >
+        </activity>
+
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.example.nu" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Register Service -->
+
+        <service android:name=".GCMNotificationIntentService" />
+
+        <activity
+            android:name=".ThankActivity"
+            android:label="@string/title_activity_thank" >
+        </activity>
+        <activity
+            android:name=".PassengerBOOKING"
+            android:label="@string/title_activity_passenger_booking" >
+        </activity>
+        <activity
+            android:name=".MyMain"
+            android:label="@string/title_activity_my_main" >
+        </activity>
+        <activity
+            android:name=".BookSourceMap"
+            android:label="BookSourceMap" >
+        </activity>
+        <activity
+            android:name=".BookDesMap"
+            android:label="BookDesMap" >
+        </activity>
+        <activity
+            android:name=".RateDriver"
+            android:label="@string/title_activity_rate_driver" >
+        </activity>
+    </application>
+
+</manifest>
