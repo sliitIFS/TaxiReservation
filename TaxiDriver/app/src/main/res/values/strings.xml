@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TaxiDriver</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_availability">AvailabilityActivity</string>
+    <string name="title_activity_set_status">Map</string>
+    <string name="title_activity_login2">Login2</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="login_title">Login</string>
+    <string name="title_activity_alert">AlertActivity</string>
+</resources>
